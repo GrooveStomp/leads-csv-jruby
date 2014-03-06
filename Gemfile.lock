@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    jdbc-mysql (5.1.28)
+    jdbc-wrapper (0.4)
     rack (1.5.2)
     rack-protection (1.5.2)
       rack
@@ -14,4 +16,6 @@ PLATFORMS
   java
 
 DEPENDENCIES
+  jdbc-mysql
+  jdbc-wrapper
   sinatra
