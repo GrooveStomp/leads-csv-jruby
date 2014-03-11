@@ -22,13 +22,13 @@ Now do `source ~/.bashrc` and the jdbc driver should be available for use.
 
 ```
 bundle install
-bundle exec rails app.rb
+bundle exec ruby app.rb
 ```
 
 Now hit your browser:
 
 ```
-http://localhost:4567/pages/:page_id
+http://localhost:4567/page/:page_id
 ```
 Where **:page_id** is a valid uuid for a page in your local lp_webapp database.
 
